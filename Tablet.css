@@ -1,0 +1,25 @@
+#Menu-burger{
+    display: none;
+    
+}
+#menu1{
+    display: block;
+    
+}
+menu li{
+    display: inline-block;
+   padding-left:32px;
+   width: 80px;
+   
+
+}
+menu a{
+    border-top-left-radius: 15px;
+    
+}
+main{
+    width: 601px;
+}
+section img {
+    width: 601px;
+}
