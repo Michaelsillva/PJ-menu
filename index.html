@@ -6,7 +6,8 @@
     <title>Menu Responsivo</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
-    <link rel="stylesheet" href="Tablet.css" media="screen and (min-width: 601px) and (max-width:1024px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Tablet.css" media="screen and (min-width: 601px)">
 </head>
 <body onresize="mudouTamanho()">
     <header>
@@ -15,7 +16,7 @@
         <span id="Menu-burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         <menu id="menu1">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#Início">Início</a></li>
                 <li><a href="#">Video</a></li>
                 <li><a href="#">Fotos</a></li>
                 <li><a href="#">Dicas</a></li>
@@ -23,14 +24,32 @@
             </ul>
         </menu>
     </header>
-    <main>
-        <article>
-            <h2>Meus Mimos</h2>
-            <p>Cada peça de crochê que criamos é feita com amor, paciência e dedicação, resultando em produtos únicos que trazem aconchego, beleza e personalidade para o seu dia a dia. Utilizamos materiais de alta qualidade, garantindo não apenas um acabamento impecável, mas também durabilidade e conforto. Nossos produtos vão desde itens decorativos, como mantas, tapetes e sousplats, até acessórios encantadores, como bolsas, chaveiros e amigurumis, todos confeccionados artesanalmente para agregar charme e exclusividade ao seu estilo ou ambiente. Seja para presentear alguém especial ou para transformar sua casa em um espaço ainda mais acolhedor, cada peça carrega em seus pontos a essência do trabalho manual, feito com carinho para tornar momentos simples em algo especial.</p>
-            <section>
-                <img src="Imagens/croche.jpg" alt="">
-            </section>
-        </article>
+    <main id="content">
+        <section id="home">
+            <div id="cta">
+                <h1>"Feito à mão para aquecer seu <span>coração</span>!"</h1>
+                <p class="descricao">"Arte em cada ponto, estilo em cada detalhe! 🧵✨ Adquira sua bolsa de crochê única!"</p>
+                <div class="botao-cta">
+                    <a class="opc" href="#">Ver Opções</a>
+                    <a id="botao-cel" href="tel:+555555555"></a>
+                    <button class="opc">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        (00) 00000-0000
+                    </button>
+                </div>
+                <div class="butao-redes">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+
+            </div>
+            <div id="banner">
+                <img src="Imagens/banner.jpg" alt="">
+
+            </div>
+        </section>
+       
     </main>
     <script>
         function mudouTamanho(){
