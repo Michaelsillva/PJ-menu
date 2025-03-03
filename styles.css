@@ -2,12 +2,16 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body, html{
-    background-color: #2d3435;
+    background-color: #d9b0b0bd;
 }
 header{
-    background-color: #d38c8c;
+    background-color: #ed4747;
+    color: white;
+    text-shadow: 1px 1px 3px #2a4b4c;
+    
 }
 header > h1{
     text-align: center;
@@ -49,3 +53,23 @@ menu a:hover{
     color: black;
 }
 
+#home{
+    display: flex;
+    min-height: 90vh;
+    padding: 15px;
+    flex-flow: column;
+}
+#cta{
+    width: 90vw;
+    margin-bottom: 20px;
+}
+.titulo{
+    font-size: 2em;
+}
+span{
+    color: #ed4747;
+    text-shadow: 1px 1px 3px #2a4b4c;
+}
+#foto{
+    width: 90vw;
+}
