@@ -15,7 +15,6 @@ header{
     background-repeat: no-repeat;
     background-size: contain;
     color: white;
-    border-radius: 10px;
    
     
 }
@@ -39,12 +38,14 @@ menu a{
     padding: 10px;
     display: block;
     background-color: #ffb623;
-    color: white;
+    color: #5c1b3a;
+    text-shadow: 0px 0px 3px white;
+    font-weight: bolder;
     text-align: center;
     border-top: 2px solid #5c1b3a;
 }
 menu a:hover{
-    background-color:#5c1b3a;
+    background-color:#9a064e;
 }
 #Menu-burger{
     background-color: #ffb623;
