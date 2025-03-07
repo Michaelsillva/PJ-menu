@@ -10,12 +10,11 @@ body, html{
 header{
     height: 500px;
     margin: 5px;
-    background-image: url('Imagens/Post\ para\ instagram\ moderno\ comunicado\ importante\ amarelo.png');
+    background-image: url('Imagens/acaicopp.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: white;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.558) ;
     border-radius: 10px;
    
     
