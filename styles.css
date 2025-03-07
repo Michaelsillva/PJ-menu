@@ -5,12 +5,19 @@
     box-sizing: border-box;
 }
 body, html{
-    background-color: #d9b0b0bd;
+    background-color: #9a064e
 }
 header{
-    background-color: #ed4747;
+    height: 500px;
+    margin: 5px;
+    background-image: url('Imagens/Post\ para\ instagram\ moderno\ comunicado\ importante\ amarelo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    text-shadow: 1px 1px 3px #2a4b4c;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.558) ;
+    border-radius: 10px;
+   
     
 }
 header > h1{
@@ -32,24 +39,24 @@ menu a{
     text-decoration: none;
     padding: 10px;
     display: block;
-    background-color: #ee6d6d;
+    background-color: #ffb623;
     color: white;
     text-align: center;
-    border-top: 2px solid #638081;
+    border-top: 2px solid #5c1b3a;
 }
 menu a:hover{
-    background-color: #447677;
+    background-color:#5c1b3a;
 }
 #Menu-burger{
-    background-color: #2a4b4c;
-    color: #ee6d6d;
+    background-color: #ffb623;
+    color: #5c1b3a;
     display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 #Menu-burger:hover{
-    background-color: #ee6f6f;
+    background-color: #3c0a22;
     color: black;
 }
 
@@ -67,7 +74,7 @@ menu a:hover{
     font-size: 2em;
 }
 span{
-    color: #ed4747;
+    color: #ffb623;
     text-shadow: 1px 1px 3px #2a4b4c;
 }
 #foto{

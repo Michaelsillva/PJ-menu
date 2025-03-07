@@ -5,6 +5,14 @@
 #menu1{
     display: block;
     
+    
+}
+header{
+    height: 240px;
+    background-image: url('Imagens/ja\ tomou\ seu\ acai\ hj.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 menu li{
     display: inline-block;
