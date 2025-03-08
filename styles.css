@@ -66,8 +66,8 @@ menu a:hover{
 
 
 span{
-    color: #ffb623;
-    text-shadow: 1px 1px 3px #2a4b4c;
+    color: #000000;
+    font-weight: 600;
 }
 section{
     padding: 20px;
