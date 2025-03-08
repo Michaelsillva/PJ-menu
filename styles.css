@@ -130,3 +130,8 @@ section{
     display: flex;
     justify-content: space-evenly;
 }
+
+#banner img{
+    width: 100%;
+    
+}
