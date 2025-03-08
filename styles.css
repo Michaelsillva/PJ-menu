@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body, html{
     background-color: #9a064e
@@ -43,9 +44,11 @@ menu a{
     font-weight: bolder;
     text-align: center;
     border-top: 2px solid #5c1b3a;
+  
 }
 menu a:hover{
-    background-color:#9a064e;
+    background-color:#cb911d;
+    transform: scale(1.2);
 }
 #Menu-burger{
     background-color: #ffb623;
@@ -60,23 +63,70 @@ menu a:hover{
     color: black;
 }
 
-#home{
-    display: flex;
-    min-height: 90vh;
-    padding: 15px;
-    flex-flow: column;
-}
-#cta{
-    width: 90vw;
-    margin-bottom: 20px;
-}
-.titulo{
-    font-size: 2em;
-}
+
 span{
     color: #ffb623;
     text-shadow: 1px 1px 3px #2a4b4c;
 }
-#foto{
-    width: 90vw;
+section{
+    padding: 20px;
+    max-width: 1150px;
+    margin: auto;
+}
+.butao-redes{
+    display: flex;
+    gap: 18px;
+    
+}
+.butao-redes a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    font-size: 1.5em;
+    color: #ffb623;
+    text-shadow: 1px 1px 5px black;
+    transition: 0.3s ease;
+}
+.butao-redes a:hover{
+    text-shadow: 0px 0px 15px black;
+    color: #b73674;
+}
+.titulo{
+    text-align:center;
+    margin-top: 20px;
+}
+#home{
+   height: 100%; 
+}
+.titulo{
+    font-size: 2.5em;
+    color: #1e0511;
+}
+.descricao{
+    font-size: 1.3em;
+    text-align: center;
+}
+.botao-cta{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 20px 0px;
+}
+.botao-cta a{
+    color: white;
+}
+.opc{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffb623;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+}
+.butao-redes{
+    display: flex;
+    justify-content: space-evenly;
 }
