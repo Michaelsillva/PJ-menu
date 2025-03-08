@@ -11,6 +11,8 @@
     
 }
 header{
+    background-color: #5C1B3A;
+  
     width: 100%;
     height: 240px;
     background-image: url('Imagens/ja\ tomou\ seu\ acai\ hj.png');
@@ -44,9 +46,19 @@ menu a{
     margin-top: 5%;
    
 }
+.butao-redes{
+    display: flex;
+    justify-content: space-between;
+
+}
 .titulo{
+   
     font-size: 2.9em;
     color: #1e0511;
+  
+}
+.gold{
+    color: #ffb623;
 }
 .descricao{
     font-size: 1.5em;
@@ -96,11 +108,10 @@ menu a{
 }
 #card-pratos{
     display: flex;
-    border: 2px solid black;
     flex-flow: wrap;
     width: 100%;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     margin-top: 32px;
 }
 .pratos{
